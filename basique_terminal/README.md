@@ -180,16 +180,16 @@ mv peut être utilisé avec des dossiers sans l'option -r.
 
 ## Édition de fichiers
 
-Il existe quelques éditeurs de texte intégrés au terminal, le plus connu étant vim. Similairement a un terminal, ils demandent une certaine maitrise avant de se révéler utiles.
+Il existe quelques éditeurs de texte intégrés au terminal, comme emacs ou vim. Similairement à un terminal, ils demandent une certaine maitrise avant de se révéler utiles.
 
 Il reste donc plus simple de coder avec un éditeur de texte à interface graphique.
 
-Visual Studio code par exemple s'ouvre depuis le terminal avec la commande ```code [dossier_de_travail]```, il est facile a prendre en main et possede des integrations qui facilitent grandement l'utilisation de git.
+Visual Studio code par exemple s'ouvre depuis le terminal avec la commande ```code [dossier_de_travail]```, il est facile à prendre en main et possede des integrations qui facilitent grandement l'utilisation de git.
 
 ## Execution de scripts
 
-Un script est un fichier contenant un code dans un language interpreté. Ce fichier n'est donc pas un binaire (fichier ne contenant que des 0 ou des 1 et il ne peut donc etre directement compris par la machine. Pour exécuter ledit fichier il faut recourir a un interpreteur qui est lui un binaire et prend en argument le ou les fichiers a interpreter.
-exemple "```python <programm name>
+Un script est un fichier contenant un code dans un language interpreté. Ce fichier n'est donc pas un binaire (fichier ne contenant que des 0 ou des 1) et il ne peut donc pas etre directement compris par la machine. Pour exécuter un script il faut recourir à un interpréteur.
+Dans le cas d'un script python : ```python <script.py> [arg1] [arg2] [...]```.
 
 ## Conclusion
 
