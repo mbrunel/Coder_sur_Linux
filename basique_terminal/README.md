@@ -6,15 +6,13 @@ Apprendre à un nouvel utilisateur comment manipuler et naviguer dans le systèm
 
 ## Pourquoi
 
-Le terminal est l'outil de base de la programmation. Même s'il est souvent possible d'éviter son utilisation, une maîtrise instinctive de celui-ci évite beaucoup de problèmes, notamment ceux lies au développement.
+Le terminal est l'outil de base de la programmation. Même s'il est souvent possible d'éviter son utilisation, une maîtrise instinctive de celui-ci évite beaucoup de problèmes, notamment ceux liés au développement.
 Ce tutoriel en particulier facilitera grandement la prise en main de git.
 
 ## Prérequis
 
 * Aucun sur Linux et mac OS
 * Sur Windows, git bash qui vient avec l'installation de git ou tout équivalent. Powershell n'est pas un équivalent.
-
-> Je recommande de tester au fur et à mesure chacune des commandes montrées.
 
 ## Qu'est-ce que le système de fichiers
 
@@ -34,6 +32,9 @@ La deuxième 'User' notée '/home/User' ou '~' est celle de la session. C'est ce
 ### PWD
 
 La première étape est de savoir où l'on est, la commande pwd l'indique. Il faut donc écrire ```pwd``` dans le terminal puis appuyer sur entrée. L'ordinateur devrait afficher une ligne, qui constitue le retour de la commande.
+
+> Je recommande grandement de tester au fur et à mesure chacune des commandes montrées.
+
 
 ![pwd](ressources/pwd.png)
 
@@ -160,7 +161,7 @@ On distingue deux cas :
 
 ![cp1](ressources/cp1.png)
 
-* On peut voir que le contenu de file a été copie lorsqu'on affiche le nouveau fichier
+* On peut voir que le contenu de file a été copié lorsqu'on affiche le nouveau fichier
 
 2) Copie de plusieurs fichiers dans un dossier :
 
@@ -170,7 +171,7 @@ Il est également possible copier des dossiers avec l'option -r
 
 ### MV
 
-mv est similaire à cp à la différence qu’il supprime les éléments originaux après les avoir copies.
+mv est similaire à cp à la différence qu’il supprime les éléments originaux après les avoir copiés.
 mv peut être utilisé avec des dossiers sans l'option -r.
 
 ![mv](ressources/mv.png)
@@ -182,6 +183,13 @@ mv peut être utilisé avec des dossiers sans l'option -r.
 Il existe quelques éditeurs de texte intégrés au terminal, le plus connu étant vim. Similairement a un terminal, ils demandent une certaine maitrise avant de se révéler utiles.
 
 Il reste donc plus simple de coder avec un éditeur de texte à interface graphique.
+
+Visual Studio code par exemple s'ouvre depuis le terminal avec la commande ```code [dossier_de_travail]```, il est facile a prendre en main et possede des integrations qui facilitent grandement l'utilisation de git.
+
+## Execution de scripts
+
+Un script est un fichier contenant un code dans un language interpreté. Ce fichier n'est donc pas un binaire (fichier ne contenant que des 0 ou des 1 et il ne peut donc etre directement compris par la machine. Pour exécuter ledit fichier il faut recourir a un interpreteur qui est lui un binaire et prend en argument le ou les fichiers a interpreter.
+exemple "```python <programm name>
 
 ## Conclusion
 
