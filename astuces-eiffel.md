@@ -20,3 +20,12 @@ mystérieusement, la touche impr-écran ne marche pas. Il faut donc run
 gnome-screenshot -i
 ```
 pour arriver au même résultat
+
+
+## Lock screen on debian buster
+
+on ne peut pas lock la session en utilisant l'interface graphique sur les sessions debian buster, on peut par contre utiliser la commande
+
+```
+dm-tool lock
+```
